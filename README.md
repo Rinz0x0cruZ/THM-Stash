@@ -1,4 +1,4 @@
 # THM-Stash
 * Featuring my progress at TryHackMe
-* ![Alt text](https://tryhackme.com/badge/1158374)
+* https://tryhackme.com/p/rinz0x0cruz
 
