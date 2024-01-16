@@ -1,0 +1,44 @@
+# Nmap 7.93 scan initiated Tue Jan 16 16:34:33 2024 as: nmap -sC -sV -oA nmap/ 10.10.9.62
+Nmap scan report for 10.10.9.62
+Host is up (0.16s latency).
+Not shown: 991 closed tcp ports (conn-refused)
+PORT      STATE SERVICE            VERSION
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+3389/tcp  open  ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=Jon-PC
+| Not valid before: 2024-01-15T11:01:54
+|_Not valid after:  2024-07-16T11:01:54
+|_ssl-date: 2024-01-16T11:05:52+00:00; +1s from scanner time.
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49158/tcp open  msrpc              Microsoft Windows RPC
+49159/tcp open  msrpc              Microsoft Windows RPC
+Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h30m00s, deviation: 3h00m00s, median: 0s
+| smb2-time: 
+|   date: 2024-01-16T11:05:46
+|_  start_date: 2024-01-16T11:01:51
+|_nbstat: NetBIOS name: JON-PC, NetBIOS user: <unknown>, NetBIOS MAC: 025e58201bff (unknown)
+| smb2-security-mode: 
+|   210: 
+|_    Message signing enabled but not required
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: Jon-PC
+|   NetBIOS computer name: JON-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2024-01-16T05:05:46-06:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jan 16 16:35:51 2024 -- 1 IP address (1 host up) scanned in 78.04 seconds
