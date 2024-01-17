@@ -1,0 +1,43 @@
+ll[38;2;153;153;153msls[?1l>[?2004l
+webapp.db
+                                                                                                                             
+[J┌──(kali㉿kali)-[~/Github/THM-Stash/OWASP-10/Cryptographic-Fail]
+└─$ [?1h=[?2004hss[38;2;153;153;153mudo openvpn rinz0x0cruz.ovpn[28Dsq                           [27D[38;2;153;153;153mlite3 webapp.db[15Dsqlliittesqlite3           [10D[?1l>[?2004l
+SQLite version 3.44.2 2023-11-24 11:41:44
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+[?2004hsqlite> ^C[?2004l[?2004h[C[C[C[C[C[C[C[C^C[?2004lProgram interrupted.
+                                                                                                                             
+[J┌──(kali㉿kali)-[~/Github/THM-Stash/OWASP-10/Cryptographic-Fail]
+└─$ [?1h=[?2004hcc[38;2;153;153;153mlearclcleeaclear[?1l>[?2004l
+[H[J[3J                                                                                                                             
+[J┌──(kali㉿kali)-[~/Github/THM-Stash/OWASP-10/Cryptographic-Fail]
+└─$ [?1h=[?2004hclearsqlite3 [38;2;153;153;153mwebapp.db[9Dwebapp.db  [?1l>[?2004l
+SQLite version 3.44.2 2023-11-24 11:41:44
+Enter ".help" for usage hints.
+[?2004hsqlite> . tables
+[?2004lsessions  users   
+[?2004hsqlite> PRAGRMA table_info(sessions)
+[?2004l[?2004h   ...> ;
+[?2004l0|sessionID|TEXT|1||1
+1|userID|TEXT|1||0
+2|expiry|INT|1||0
+[?2004hsqlite> ;PRAGMA table_info(sessions);[1P);[1P);[1P);[1P);[1P);[1P);[1P);[1P);u);s);e);r);s);[C[C
+[?2004l0|userID|TEXT|1||1
+1|username|TEXT|1||0
+2|password|TEXT|1||0
+3|admin|INT|1||0
+[?2004hsqlite> echo "\nSELECT * FROM users;
+[?2004l4413096d9c933359b898b6202288a650|admin|6eea9b7ef19179a06954edd0f6c05ceb|1
+23023b67a32488588db1e28579ced7ec|Bob|ad0234829205b9033196ba818f7a872b|1
+4e8423b514eef575394ff78caed3254d|Alice|268b38ca7b84f44fa0a6cdc86e6301e0|0
+[?2004hsqlite> exitquit;
+[?2004lParse error: near "quit": syntax error
+  quit;
+  ^--- error here
+[?2004hsqlite> quit
+[?2004l[?2004h   ...> ^C[?2004l[?2004h[C[C[C[C[C[C[C[C^C[?2004lProgram interrupted.
+                                                                                                                             
+[J┌──(kali㉿kali)-[~/Github/THM-Stash/OWASP-10/Cryptographic-Fail]
+└─$ [?1h=[?2004hee[38;2;153;153;153mxitexexiexit[?1l>[?2004l
